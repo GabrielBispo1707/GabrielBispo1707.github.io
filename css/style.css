@@ -1,0 +1,176 @@
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamentos padrão */
+    box-sizing: border-box; /* Garante que padding e border não aumentem a largura/altura dos elementos */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fonte principal */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    color: #050505; /* Cor do texto padrão */
+    background-color: #ccc;
+}
+
+
+header {
+    background-color: #2C3E50; /* Cor de fundo */
+    padding: 50px ; /* Espaçamento interno */
+    text-align: center; /* Alinhamento central do conteúdo */
+    color: antiquewhite; /* Cor do texto */
+    margin-bottom: 20px; /* Espaço abaixo do header */
+    
+}
+
+
+h1 {
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+
+header nav ul {
+    padding: 0; /* Remove espaçamentos padrão */
+    margin: 0; /* Remove margens e espaçamentos */
+    
+}
+
+
+header nav ul li {
+    display: inline-block; /* Coloca os itens na horizontal */
+    margin: 0 15px; /* Espaço entre os itens */
+}
+
+
+header nav ul li a {
+    color: antiquewhite; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Negrito */
+}
+
+
+header nav ul li a:hover {
+    color: #18BC9C; /* Muda a cor ao hover */
+    text-decoration: underline; /* Sublinhado ao hover */
+}
+
+
+img {
+    border-radius: 50%; /* Bordas arredondadas */
+    width: 200px; /* Largura fixa */
+    display: block; /* Faz a imagem comportar-se como bloco */
+    margin: 0 auto 20px auto; /* Centraliza a imagem e adiciona espaço abaixo */
+    border: 4px solid #18BC9C; /* Borda verde */
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* margin: top / right / bottom / left */
+/* padding: top / right / bottom / left */
+
+main {
+    padding: 20px 80px; /* Espaçamento interno do conteúdo */
+}
+
+
+p {
+    text-align: justify; /* Texto justificado */
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+    font-size: 16px; /* Tamanho do texto */
+}
+
+
+h2 {
+    color: #008075; /* Cor do subtítulo */
+    margin-bottom: 15px; /* Espaço abaixo */
+    margin-top: 30px; /* Espaço acima */
+    border-bottom: 3px solid #008075; /* Linha inferior */
+    padding-bottom: 5px; /* Espaço entre texto e linha */
+}
+
+h3 {
+    color: #152433; /* Cor do título */
+    margin-bottom: 10px; /* Espaço abaixo */
+    margin-top: 20px; /* Espaço acima */
+}
+
+
+ul, dl {
+    margin-left: 20px; /* Recuo da lista */
+    margin-bottom: 20px; /* Espaço abaixo da lista */
+}
+
+
+table {
+    width: 100%; /* Largura total */
+    border-collapse: collapse; /* Remove espaço entre células */
+   
+}
+
+
+table th{
+    border: 1px solid #000000; /* Borda cinza */
+    padding: 10px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    background-color: #2C3E50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+}
+
+table td {
+    border: 1px solid #000000; /* Borda cinza */
+    padding: 10px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+
+
+footer {
+    text-align: center; /* Centraliza conteúdo */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #2C3E50; /* Cor de fundo */
+    color: antiquewhite; /* Cor do texto */
+    margin-top: 20px; /* Espaço acima do footer */
+}
+
+
+footer a  {
+    color: #18BC9C; /* Cor do link */
+    margin: 0 10px; /* Espaço horizontal entre links */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+
+footer a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o rato */
+}
+
+footer p {
+    margin-top: 10px; /* Espaço acima do parágrafo */
+    font-size: 14px; /* Tamanho do texto */
+    text-align: center; /* Centraliza conteúdo */
+}
+
+footer p:hover {
+    color: #18BC9C; /* Muda a cor ao hover */
+    font-family: monospace; /* Muda a fonte ao hover */
+    cursor: none; /* Muda o cursor ao hover */
+}
+
+#email {
+    text-decoration: none; /* Remove sublinhado */
+}
+
+#email:hover {
+    text-decoration: underline; /* Sublinhado ao passar o rato */
+    color: #18BC9C; /* Muda a cor ao hover */
+    font-family: monospace; /* Muda a fonte ao hover */
+}
+
+dt{
+    color: #152433; /* Cor do título */
+    font-weight: bold; /* Negrito */
+}
+
+dd{
+    margin-bottom: 10px; /* Espaço abaixo */
+    margin-left: 20px; /* Recuo do texto */
+   /* font-family: Georgia, 'Times New Roman', Times, serif; /* Fonte serifada */  
+}
+
+
